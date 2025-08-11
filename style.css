@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+
+#fv {
+    height: 600px;
+    background: #77bb55;
+}
+@media (max-width: 400px) {
+    #fv {
+        flex-direction: column;
+    }
+}
+.fv__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.fv__logo {
+    width: 190px;
+    margin-top: 30px;
+}
+.fv__content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fv__info {
+    color: white;
+    text-align: center;
+}
+.fv__info_catch {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.fv__info_catch_l {
+    font-weight: bold;
+    font-size: 33px;
+}
+.fv__cost {
+    font-size: 80px;
+    margin: 50px 0;
+}
+.fv__cost_vertical {
+    font-size: 30px;
+    writing-mode: vertical-rl;
+}
+.fv__cost_small {
+    font-size: 40px;
+}
+.fv__cost_num {
+    font-size: 80px;
+    font-weight: bold;
+}
+.fv__cost_num-tight {
+    letter-spacing: -0.1em;
+    
+}
+.fv__img {
+    height: 600px;
+    margin-top: -70px;
+
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #eb7e3f;
+    color: #fff;
+    padding: 16px 48px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: rgb(241, 113, 39);
+  }
+  
